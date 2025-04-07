@@ -1,0 +1,13 @@
+Algoritmo biblioteca peliculas:
+
+1-crear lista de las peliculas
+2-crear variables con los datos de las peliculas
+3-Mostrar al usuario 6 opciones, 5 una por cada pelicula y una para salir del programa.
+4-Crear un ciclo en base a la eleccion del usuario.
+4.1-Si selecciona la 1ra opcion, mostrar datos de la 1ra pelicula
+4.2-Si selecciona la 2da opcion, mostrar datos de la 2da pelicula
+4.3-Si selecciona la 3ra opcion, mostrar datos de la 3ra pelicula
+4.4-Si selecciona la 4ta opcion, mostrar datos de la 4ta pelicula
+4.5-Si selecciona la 5ta opcion, mostrar datos de la 5ta pelicula
+4.6-Si selecciona la 6ta opcion, cerrar el programa.
+4.7-Si la opcion no es ninguna de las 6, mostrar "opcion invalida" al usuario.
