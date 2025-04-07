@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
   <diagram name="Page-1" id="3uAM3gL5FD7uEbt0OLU6">
-    <mxGraphModel>
+    <mxGraphModel dx="1006" dy="2857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-1" target="dSDTKzQYNuV-XdGLNCFi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-2180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-3" target="dSDTKzQYNuV-XdGLNCFi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-3" value="Generar un numero aleatorio (1 al 6)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-5" target="dSDTKzQYNuV-XdGLNCFi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-5" value="crear variables para cada lanzamiento del dado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-7" target="dSDTKzQYNuV-XdGLNCFi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-7" value="Lanzar el primer dado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-9" target="dSDTKzQYNuV-XdGLNCFi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-9" value="Mostrar resultado al usuario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-11" value="Lanzar el segundo dado, sin mostrar el resultado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-13" value="Calcular el resultado comparando ambos numeros si 1es&amp;lt;&amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-14" target="dSDTKzQYNuV-XdGLNCFi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-14" value="Preguntar al usuario cual es el resultado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-16" target="dSDTKzQYNuV-XdGLNCFi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-16" target="dSDTKzQYNuV-XdGLNCFi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-16" value="Comprobando respuesta del usuario, correcto o incorrecto?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-1490" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-19" target="dSDTKzQYNuV-XdGLNCFi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-19" value="Mostrar mensaje ganador al usuario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSDTKzQYNuV-XdGLNCFi-20" target="dSDTKzQYNuV-XdGLNCFi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-20" value="Mostrar mensaje perdedor al usuario y respuesta correcta." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSDTKzQYNuV-XdGLNCFi-23" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1240" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
